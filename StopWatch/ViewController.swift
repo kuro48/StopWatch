@@ -35,9 +35,7 @@ class ViewController: UIViewController {
         }else{
             evlabel.text = "BAD"
         }
-        if evlabel.isHidden == false {
-            evlabel.isHidden = true
-        }else{
+        if evlabel.isHidden == true {
             evlabel.isHidden = false
         }
     }
